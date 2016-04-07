@@ -54,5 +54,5 @@ create temporary table bot_stats (
 insert overwrite table bot_stats
 YOUR CODE GOES HERE
 
-select yearmonth,botcount,nonbotcount from bot_stats order by yearmonth;
+select yearmonth,nonbotcount,botcount,count,size,botsize,nonbotsize from bot_stats order by yearmonth;
 

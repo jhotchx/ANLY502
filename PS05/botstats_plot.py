@@ -32,7 +32,7 @@ if __name__=="__main__":
     ax.set_title("Bots and Non-Bots per Month")
     ax.set_xticks(ind + width)   # where the tics go
     ax.set_xticklabels(months)  # the are strings
-    ax.legend((rects1[0],rects2[0]), ("Bots","Non-Bots"))
+    ax.legend((rects1[0],rects2[0]), ("Non-Bots","Bots"))
 
     # Rotate the labels ( you need to rotate them separately)
     for label in ax.get_xticklabels():
